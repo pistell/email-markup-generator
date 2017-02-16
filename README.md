@@ -1,18 +1,16 @@
-# Email Blast Generator
+# Email Markup Generator
 
-This application generates HTML to be used in an email.
-
-We are using the Imgur API to upload the image and retrieve the newly created link to put in the email.
+This application is somewhat of a boilerplate for an intranet application that generates HTML to be used in an email. It currently features input for 2 social media links and a file upload that uses the imgur API to upload the image for use in the template.
 
 ## Template
 
-When the button is clicked, `template.html` is loaded into the application and the application searches for a few specific template tags to replace with the user data.
+When the button is clicked, `template.html` is loaded into the application and the application searches for a few specific template tags to replace with the user data. You can of course use whatever template you want, and continue using the following template tags.
 
-`{{imgurLink}}` is the literal link to the imgur upload
-
-`{{link1}}` is the first user link
-
-`{{link2}}` is the second user link
+| Tag             | Description                          |
+| --------------- |:------------------------------------:|
+| `{{imgurLink}}` | the literal link to the imgur upload |
+| `{{link1}}`     | the first social media link          |
+| `{{link2}}`     | are second social media link         |
 
 ## Credit
 
