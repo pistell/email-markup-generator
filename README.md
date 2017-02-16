@@ -10,7 +10,7 @@ When the button is clicked, `template.html` is loaded into the application and t
 | --------------- |:------------------------------------:|
 | `{{imgurLink}}` | the literal link to the imgur upload |
 | `{{link1}}`     | the first social media link          |
-| `{{link2}}`     | are second social media link         |
+| `{{link2}}`     | the second social media link         |
 
 ## Credit
 
