@@ -4,7 +4,7 @@ This application is somewhat of a boilerplate for an intranet application that g
 
 ## Template
 
-When the button is clicked, `template.html` is loaded into the application and the application searches for a few specific template tags to replace with the user data. You can of course use whatever template you want, and continue using the following template tags.
+When the button is clicked, `template.html` is loaded into the application and the application searches for a few specific template tags to replace with the user data. You can of course use whatever template you want, and continue using the following template tags and/or edit or add your own within the template and [app.js](assets/js/app.js).
 
 | Tag             | Description                          |
 | --------------- |:------------------------------------:|
