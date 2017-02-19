@@ -28,11 +28,15 @@
 		$('#generate').click(function() {
 			var link1 = $('#link1').val();
 			var link2 = $('#link2').val();
+			var siteURL = $('#siteURL').val();
+			var businessName = $('#businessName').val();
 
 			// search for the template tags and replace with our dynamic values
 			var templateHTML = rawTemplateHTML.replace(/{{imgurLink}}/g, imgurLink);
-			templateHTML = templateHTML.replace(/{{link1}}/g, link1);
-			templateHTML = templateHTML.replace(/{{link2}}/g, link2);
+					templateHTML = templateHTML.replace(/{{link1}}/g, link1);
+					templateHTML = templateHTML.replace(/{{link2}}/g, link2);
+					templateHTML = templateHTML.replace(/{{siteURL}}/g, siteURL);
+					templateHTML = templateHTML.replace(/{{businessName}}/g, businessName);
 
 			// output to screen
 			$('.output').val(templateHTML);
