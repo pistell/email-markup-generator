@@ -111,10 +111,29 @@ h2 {
 	padding-bottom: 15px;
 }
 
-.btn-copy {
+/*.btn-copy {
 	position: relative;
 	top: -33px;
 	right: 3px;
+}*/
+.btn-copy {
+    /* position: inherit; */
+    /* top: -33px; */
+    /* right: 3px; */
+		display: none;
+    width: 35%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px 0 10px 0;
+    /* margin: 10px 0 10px 0; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    font-size: 30px;
+    background-color: #89008b;
+    color: white;
+    border-radius: 8px;
+    border: 2px black solid;
 }
 
 .preview {
